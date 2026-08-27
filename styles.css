@@ -632,8 +632,7 @@ button {
 
 .organizer-card {
   display: grid;
-  grid-template-columns: 164px minmax(0, 1fr);
-  min-height: 100%;
+  grid-template-columns: 280px minmax(0, 1fr);
   overflow: hidden;
   background: var(--white);
   border: 1px solid var(--line);
@@ -642,9 +641,9 @@ button {
 }
 
 .organizer-card > img {
-  width: 164px;
+  width: 100%;
   height: 100%;
-  min-height: 420px;
+  min-height: 340px;
   object-fit: cover;
   object-position: center top;
 }
@@ -652,7 +651,7 @@ button {
 .organizer-content {
   display: flex;
   min-width: 0;
-  padding: 28px;
+  padding: 32px 38px;
   flex-direction: column;
 }
 
@@ -781,7 +780,7 @@ button {
   }
 
   .organizer-card > img {
-    min-height: 350px;
+    min-height: 320px;
   }
 }
 
@@ -993,9 +992,9 @@ button {
 
   .organizer-card > img {
     width: 100%;
-    height: 300px;
-    min-height: 300px;
-    object-position: center 24%;
+    height: auto;
+    min-height: 0;
+    object-position: center top;
   }
 
   .organizer-content {
